@@ -1,0 +1,7 @@
+ 
+mongoDb and body parser
+npm install mongodb body-parser --save
+ 
+install mongobd on system
+
+install mongoose 
