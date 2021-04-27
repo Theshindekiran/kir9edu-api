@@ -32,7 +32,7 @@ db.mongoose
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "OK." });
+  res.json({ message: "You did. OK." });
   console.log('test method hit')
 });
 
