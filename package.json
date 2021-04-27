@@ -2,7 +2,7 @@
   "name": "kir9edu_api",
   "version": "1.0.0",
   "description": "Assignment api",
-  "main": "server.js",
+  "main": "./app/models/index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -15,8 +15,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js &",
-    "heroku-postbuild": "node server.js"
+    "start": "node server.js"
+    
   }, 
   "repository": {
     "type": "git",
